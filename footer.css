@@ -1,0 +1,35 @@
+
+footer {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(25, 25, 99);
+    padding: 1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+section {
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+section:last-child {
+    margin-right: none;
+}
+
+h2 {
+    color: white;
+    border-bottom: white;
+    padding-bottom: 15px;
+    font-size: 18;
+    letter-spacing: 2px;
+    
+}
+a {
+    color: white;
+    text-decoration: none;
+    margin-bottom: 5px;
+}
+a :hover {
+    border-bottom: 1px white;
+    margin-bottom: 4px;
+}

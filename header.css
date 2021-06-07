@@ -1,0 +1,81 @@
+body {
+    background-color: rgb(184, 184, 197);
+}
+.main-nav {
+display: flex;
+background-color: rgb(25, 25, 99);
+justify-content: space-between;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.company-name {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font: bolder;
+    font-size: 42px;
+    text-align: center;
+    padding-right: 1rem;
+    color: #44b;
+}
+
+.credit-offer {
+    text-decoration: none;
+    display: flex;
+    color:white;
+    padding: 1rem;
+    background: rgb(196, 15, 15);
+
+
+}
+.sub-nav {
+    display: flex;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    align-items: center;
+    padding: 10px 0;
+}
+.search-form {
+    flex: 1;
+    display: flex;
+    padding: 1rem;
+
+}
+.search-form input {
+    padding:5px;
+    border: none;
+    border-color:2px #44b;
+    flex: 1;
+}
+
+.search-form button {
+    background-color: #44b;
+    color: white;
+    padding: 1rem;
+}
+
+.horizontal.nav-list {
+    display: flex;
+    flex-direction: row; 
+}
+
+.horizontal.nav-list a {
+    padding: 1rem;
+    border-right: 5px white;
+    color: white;
+    text-decoration: none;
+    display: block;
+    border-right: 1rem;
+}
+.horizontal.nav-list li:last-of-type a {
+    border-right:none;
+}
+
+@media (max-width: 768px) {
+    .horizontal.nav-list.full-width {
+        display: none;
+    }
+    .horizontal.nav-list.short-width {
+        display: flex;
+
+}
+
+
+
